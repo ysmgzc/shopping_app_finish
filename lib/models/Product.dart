@@ -38,7 +38,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Wireless Controller for PS4™",
+    title: "PS4 için kablosuz denetleyici™",
     price: 64.99,
     description: description,
     rating: 4.8,
@@ -56,7 +56,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Nike Sport White - Man Pant",
+    title: "Nike Sport White - Erkek Pantolon",
     price: 50.5,
     description: description,
     rating: 4.1,
@@ -91,7 +91,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Logitech Head",
+    title: "Logitech Kulaklık",
     price: 20.20,
     description: description,
     rating: 4.1,
@@ -100,4 +100,4 @@ List<Product> demoProducts = [
 ];
 
 const String description =
-    "Wireless Controller for PS4™ gives you what you want in your gaming from over precision control your games to sharing …";
+    "PS4 Kablosuz Denetleyici, oyunlarınız artık daha eğlenceli...";

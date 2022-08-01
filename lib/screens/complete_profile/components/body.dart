@@ -17,16 +17,16 @@ class Body extends StatelessWidget {
             child: Column(
               children: [
                 SizedBox(height: SizeConfig.screenHeight * 0.03),
-                Text("Complete Profile", style: headingStyle),
+                Text("Profilini Tamamla", style: headingStyle),
                 Text(
-                  "Complete your details or continue  \nwith social media",
+                  "Ayrıntılarınızı tamamlayın veya \nsosyal medya ile devam edin",
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: SizeConfig.screenHeight * 0.06),
                 CompleteProfileForm(),
                 SizedBox(height: getProportionateScreenHeight(30)),
                 Text(
-                  "By continuing your confirm that you agree \nwith our Term and Condition",
+                  "Onayla ve Devam et",
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.caption,
                 ),

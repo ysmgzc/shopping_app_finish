@@ -69,7 +69,7 @@ class ProductDescription extends StatelessWidget {
             child: Row(
               children: [
                 Text(
-                  "See More Detail",
+                  "Daha fazla ayrıntı",
                   style: TextStyle(
                       fontWeight: FontWeight.w600, color: kPrimaryColor),
                 ),

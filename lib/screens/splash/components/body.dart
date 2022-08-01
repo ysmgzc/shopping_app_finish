@@ -16,16 +16,16 @@ class _BodyState extends State<Body> {
   int currentPage = 0;
   List<Map<String, String>> splashData = [
     {
-      "text": "Welcome to Tokoto, Let’s shop!",
+      "text": "Ecomart'a hoş geldiniz, hadi alışveriş yapalım!",
       "image": "assets/images/splash_1.png"
     },
     {
       "text":
-          "We help people conect with store \naround United State of America",
+          "Dilediğiniz ürün tek tıkla ayağınıza gelsin.",
       "image": "assets/images/splash_2.png"
     },
     {
-      "text": "We show the easy way to shop. \nJust stay at home with us",
+      "text": "Hadi alışveriş yapalım",
       "image": "assets/images/splash_3.png"
     },
   ];
@@ -68,7 +68,7 @@ class _BodyState extends State<Body> {
                     ),
                     Spacer(flex: 3),
                     DefaultButton(
-                      text: "Continue",
+                      text: "Devam",
                       press: () {
                         Navigator.pushNamed(context, SignInScreen.routeName);
                       },
